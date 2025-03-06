@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Page {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../image/fonddesite.jpg);
+	height: px;
+}
+#Logo {
+	height: 100px;
+	background-color: #333333;
+}
+#Menu {
+	background-color: #99CC00;
+	height: 25px;
+}
+#Menu li a:hover {
+	background-color: #628200;
+}
+
+#Contenu {
+	background-image: url(../image/fonddesite.jpg);
+	margin: 0px;
+	padding: 0px;
+}
+#Menu li.active a {
+	background-color: #628200;
+}
+.bloc {
+	padding: 0px;
+	width: 300px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.clear {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+#Pied {
+	background-color: #999999;
+}
+#Logo h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+#Menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#Menu li {
+	list-style-type: none;
+	display: inline;
+}
+#Menu li a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+#Pied {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+.bloc2 {
+	float: left;
+	height: 450px;
+	width: 550px;
+}
+#Email {
+	background-color: #FFFFFF;
+}
